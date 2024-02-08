@@ -1,0 +1,28 @@
+/* external css: flickity.css*/
+* {
+    box-sizing: content-box;
+}
+
+body {
+    box-sizing: border-box;
+}
+
+nav {
+    background-color: whitesmoke;
+}
+
+nav li {
+    display: inline-block;
+}
+
+div {
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.logo {
+    width: 100px;
+}
+
+.panel {
+    width: 100%;
+}
