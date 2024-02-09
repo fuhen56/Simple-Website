@@ -1,0 +1,29 @@
+div#conseils, 
+div#partnership, 
+div#newsletter {
+    display: grid;
+    grid-template-rows: auto 1fr;
+}
+
+div#conseils > h, 
+div#partnership > h, 
+div#newsletter > h {
+    grid-row: 1;
+}
+
+div#products > img ,
+div#partnerships > img {
+    grid-row: 2;
+    height: auto;
+}
+
+.imageGallery > img {
+    grid-row: 2;
+    width: 100%;
+    border-radius: 2%;
+}
+
+div#panel > img {
+    width: 100%;
+}
+

@@ -8,20 +8,22 @@ body {
 }
 
 header {
-    position: sticky;
     display: flex;
 }
 
 nav {
+    position: sticky;
+    top: 0px;
     background-color: whitesmoke;
 }
 /* search bar */
 .search {
     position: relative;
     display: flex;
-    width: 100%;
+    left: 30%;
+    border: 1px #0078a6 solid;
+    border-radius: 5px 0 0 5px;
 }
-
 
 /* Navigation menu */
 
@@ -33,57 +35,94 @@ nav ul li {
 nav ul ul {
     display: none;
     position: absolute;
-    top:20px;
+    top: 20px;
 }
 
 nav ul li:hover > ul {
     display: inherit;
     position: absolute;
-    left:-40px;
+    left: -40px;
 }
 
 nav ul ul li {
-	width:100px;
-	float:none;
+	width: 100px;
+	float: none;
 	position: relative;
 }
 
-div div {
-    margin-left: 30px;
-    margin-right: 30px;
-}
 
 
 .logo {
     width: 100px;
+    left: 0;
+    position: relative;
 }
 
 .panel {
 
 }
 
-#salespitch {
-    display: inline-block;
+.conseils {
+    position: relative;
+    overflow: hidden;
 }
 
-#salespitch img {
-
+.conseils img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: opacity is ease-in-out;
 }
+
+div > img {
+    border-radius: 2%;
+    margin: 0.2em;
+}
+.products img {
+    display: inline-flex;
+}
+
+.panel img {
+    width: 100%;
+}
+
+.newsletter {
+    display: inline-flex;
+}
+
 
 footer {
     background-color: #0078a6;
     width: 100%;
+    color: white;
 }
 
-/* I have a feeling this is retarded:
-    having multiple inline-flex containers, inside an inline-flex containers... Perhaps I'm just new to this.
-*/
 .footer-nav {
-    display: inline-flex;
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+
+    & div {
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+
+    & li {
+        list-style: none;
+        padding: 0px;
+        margin-bottom: 0.5emu;
+    }
 }
+
+
 .footer-nav-col1 {
     display: inline-flex;
     flex-direction: column;
+}
+
+.footer-nav-col1 p {
+    line-height: 3px;
 }
 
 .footer-nav-col2 {
@@ -94,5 +133,9 @@ footer {
 .footer-nav-col3 {
     display: inline-flex;
     flex-direction: column;
-    
+}
+
+.footer-nav-col4 {
+    display: inline-flex;
+    flex-direction: column;
 }
