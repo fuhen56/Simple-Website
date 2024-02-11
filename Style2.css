@@ -1,3 +1,42 @@
+/* Added the following from 1st version*/
+/* The main issue with this, is that it's not solving the actual issue. 
+   The menu should have resilient styling, using display. Not an arbitrary translation, and a freaking border.
+*/
+header {
+    border-bottom: 1px blue solid;
+}
+
+nav {
+    transform: translate(25%);
+}
+
+
+nav ul li {
+    display: inline-flex;
+    flex-flow: row;
+    position: relative;
+    border: 2px black solid;
+}
+
+nav ul ul {
+    display: none;
+    position: absolute;
+    top: 22px;
+}
+
+nav ul li:hover > ul {
+    display: inherit;
+    position: absolute;
+    left: -40px;
+}
+
+nav ul ul li {
+	width: 100px;
+	float: none;
+	position: relative;
+}
+/*The above should be rewritten later on*/
+
 .root {
     width: 80%;
     transform: translate(10%);
