@@ -83,6 +83,10 @@ div > img {
     display: inline-flex;
 }
 
+.panel img {
+    width: 100%;
+}
+
 .newsletter {
     display: inline-flex;
 }

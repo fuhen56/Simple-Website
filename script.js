@@ -1,4 +1,3 @@
-// For image gallery slideshow.
 document.addEventListener('DOMContentLoaded', function () {
         const images = document.querySelectorAll("conseils img");
         let currentIndex = 0;
