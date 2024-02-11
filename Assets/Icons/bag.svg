@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="3.80285mm"
+   height="3.802592mm"
+   viewBox="0 0 3.80285 3.802592"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.3.2 (091e20ef0f, 2023-11-25)"
+   sodipodi:docname="bag.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     inkscape:zoom="15.852611"
+     inkscape:cx="5.2672711"
+     inkscape:cy="3.5325411"
+     inkscape:window-width="1366"
+     inkscape:window-height="700"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs1" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-103.45282,-49.017607)">
+    <g
+       data-name="Icon map-grocery-or-supermarket"
+       id="g249"
+       transform="matrix(0.21331705,0,0,0.22974433,-224.20199,39.458161)">
+      <path
+         d="m 1553.254,54.606 a 1.437,1.437 0 1 1 -2.874,0 1.437,1.437 0 0 1 2.874,0 z"
+         fill-rule="evenodd"
+         data-name="Tracé 360"
+         id="path247" />
+      <path
+         d="m 1542.834,54.606 a 1.437,1.437 0 1 1 -2.874,0 1.437,1.437 0 0 1 2.874,0 z"
+         fill-rule="evenodd"
+         data-name="Tracé 361"
+         id="path248" />
+      <path
+         d="m 1552.895,51.372 h -11.221 l 0.24,-0.388 a 0.72,0.72 0 0 0 0.083,-0.558 l -0.234,-0.9 10.414,-0.542 a 0.767,0.767 0 0 0 0.718,-0.756 v -4.76 a 0.72,0.72 0 0 0 -0.719,-0.72 h -12.174 l -0.14,-0.54 a 0.719,0.719 0 0 0 -0.696,-0.537 h -2.44 a 0.719,0.719 0 0 0 0,1.437 h 1.885 l 1.918,7.382 -0.754,1.224 a 0.718,0.718 0 0 0 0.611,1.096 h 12.509 a 0.719,0.719 0 0 0 0,-1.438 z"
+         fill-rule="evenodd"
+         data-name="Tracé 362"
+         id="path249" />
+    </g>
+  </g>
+</svg>
