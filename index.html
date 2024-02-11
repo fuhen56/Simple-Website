@@ -10,15 +10,14 @@
 </head>
 
 <body>
-        <header>
-            <img class="logo" src="./Assets/logo health.svg" alt="logo">
-            <div class="search">
-                <input type="text" placeholder="Search for products and services">
-                <input class="searchButton" type="button">
-            </div>
-        </header>
+    <header>
+        <img class="logo" src="./Assets/logo health.svg" alt="logo">
+        <div class="search">
+            <input type="text" placeholder="Search for products and services">
+            <input class="searchButton" type="button">
+        </div>
+    </header>
     <menu>
-
     <nav>
         <ul>
             <li>Accueil</li>
@@ -36,7 +35,8 @@
         </ul>
     </nav>
     </menu>    
-    <div>
+
+    <div class="root">
         <h1>Votre solution santé</h1>
         <div>
             <img class="panel" src="./Assets/Medication-library.webp" alt="A pharmacist looking at a wall of medications">
@@ -50,7 +50,7 @@
         </div>
 
         <h2>Best Selling Products</h2>
-        <div id="products">
+        <div id="products" class="imageGallery">
             <img src="./Assets/neck.png" alt="Neck strap">
             <img src="./Assets/foot.png" alt="Back supporting strap">
             <img src="./Assets/waist.png" alt="Foot support">
@@ -72,15 +72,14 @@
         </div>
 
         <h3>Nos partenaires:</h3>
-        <div id="partnerships">
+        <div id="partnerships" class="imageGallery">
             <img src="Assets/Anios.png" alt="">
             <img src="Assets/Braun.png" alt="">
             <img src="Assets/" alt="">
             <img src="" alt="">
         </div>
-        <a class="rounded-button" href="">Voir tous nos marques</a>
-    </div>
-    <div id="salespitch" class="imageGallery">
+        <button aria-label="Voir tous nos marques"></button>
+    <div id="salespitch">
         <img src="Assets/pharmacist2.webp" alt="">
         <h3>Achat de médicaments et de produits de paramédical sur internet</h3>
         <hr>
@@ -128,6 +127,7 @@
         <a href="">Acceder au formulaire de contact</a>
     </div>
     </div>
+    </div>
     <footer>
         <div>
             <section class="footer-nav">
@@ -159,9 +159,7 @@
                     <li>Twitter</li>
                 </div>
             </section>
-            <div class="copyright">
-                <p>Tous les droits sont resérvé</p>
-            </div>
+            <p class="cr">Tous les droits sont resérvé</p>
         </div>
     </footer>
 </body>

@@ -1,29 +1,46 @@
-div#conseils, 
-div#partnership, 
-div#newsletter {
+.root {
+    width: 80%;
+    transform: translate(10%);
+}
+
+.panel {
+    width: 100%;
+}
+
+.imageGallery {
     display: grid;
     grid-template-rows: auto 1fr;
-}
-
-div#conseils > h, 
-div#partnership > h, 
-div#newsletter > h {
-    grid-row: 1;
-}
-
-div#products > img ,
-div#partnerships > img {
-    grid-row: 2;
-    height: auto;
+    gap: 5px 5px;
+    
 }
 
 .imageGallery > img {
     grid-row: 2;
-    width: 100%;
+    width: 98%;
+    height: auto;
     border-radius: 2%;
 }
 
-div#panel > img {
-    width: 100%;
+#salespitch > img {
+    width: 40%;
+    float: right;
 }
 
+
+
+footer {
+    background-color: #0078a6;
+    color: aliceblue;
+}
+
+.footer-nav {
+    display:grid;
+    grid-template-columns: 25% 25% 25% 25%;
+}
+
+.cr {
+    text-align: center;
+    font-size: small;
+    font-family: monospace;
+    font-weight: 200;
+}
