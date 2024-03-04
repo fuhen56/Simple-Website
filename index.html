@@ -6,7 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./Style2.css">
-    <script src="./script.js"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700;800&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -14,49 +17,72 @@
         <img class="logo" src="./Assets/logo health.svg" alt="logo">
         <div class="search">
             <input type="text" placeholder="Search for products and services">
-            <input class="searchButton" type="button">
+            <button id="s" type="button" class="searchButton">
+                <img src="./Assets/search.svg" alt="">
+            </button>
         </div>
-        <nav>
-            <menu>
-                <ul>
-            <li>Accueil</li>
-            <li>
-                Produits
-                <ul>
-                    <li>Orthopédies</li>
-                    <li>Médicaments</li>
-                </ul>
-            </li>
-            <li>Services</li>
-            <li>Qui Sommes Nous?</li>
-            <li>Expériences</li>
-            <li>Contact</li>
-        </ul>
-    </menu>    
-</nav>
-</header>
+        <hr>
+        <menu>
+            <ul>
+                <li>Accueil</li>
+                <li>
+                    Produits
+                    <ul>
+                        <li>Orthopédies</li>
+                        <li>Médicaments</li>
+                    </ul>
+                </li>
+                <li>Services</li>
+                <li>Qui Sommes Nous?</li>
+                <li>Expériences</li>
+                <li>Contact</li>
+            </ul>
+        </menu>
+    </header>
 
-    <div class="root">
-        <h1>Votre solution santé</h1>
-        <div>
-            <img class="panel" src="./Assets/Medication-library.webp" alt="A pharmacist looking at a wall of medications">
-
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-                dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-                ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-                fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
-                deserunt mollit anim id est laborum.</p>
-            <a href="">Savoir Plus</a>
+    <div class="container">
+        <div class="panel">
+            <img src="./Assets/Medication-library.webp" alt="A pharmacist looking at a wall of medications">
+            <div id="text" class="panel-info">
+                <h1>Votre solution santé</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et
+                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                    aliquip
+                    ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+                    dolore eu
+                    fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                    deserunt mollit anim id est laborum.</p>
+                <a href="#text"><button>Savoir Plus</button></a>
+            </div>
         </div>
 
         <h2>Best Selling Products</h2>
-        <div id="products" class="imageGallery">
-            <img src="./Assets/neck.png" alt="Neck strap">
-            <img src="./Assets/foot.png" alt="Back supporting strap">
-            <img src="./Assets/waist.png" alt="Foot support">
-            <img src="./Assets/ankle.png" alt="Wrist strap">
-            <img src="./Assets/wrist.png" alt="Ankle support">
-            <img src="./Assets/foot.png" alt="Foot support2">
+        <div id="products" class="gallery">
+            <div class="galleryCell">
+                <img src="./Assets/neck.png" alt="Neck strap">
+                <p class="price">20$</p>
+            </div>
+            <div class="galleryCell">
+                <img src="./Assets/foot.png" alt="Back supporting strap">
+                <p class="price">20$</p>
+            </div>
+            <div class="galleryCell">
+                <img src="./Assets/wrist.png" alt="Ankle support">
+                <p class="price">20$</p>
+            </div>
+            <div class="galleryCell">
+                <img src="./Assets/waist.png" alt="Foot support">
+                <p class="price">20$</p>
+            </div>
+            <div class="galleryCell">
+                <img src="./Assets/ankle.png" alt="Wrist strap">
+                <p class="price">20$</p>
+            </div>
+            <div class="galleryCell">
+                <img src="./Assets/foot.png" alt="Foot support2">
+                <p class="price">20$</p>
+            </div>
         </div>
 
         <h2>Nos conseils santé</h2>
@@ -79,86 +105,94 @@
             <img src="" alt="">
         </div>
         <button aria-label="Voir tous nos marques"></button>
-    <div id="salespitch">
-        <img src="Assets/pharmacist2.webp" alt="">
-        <h3>Achat de médicaments et de produits de paramédical sur internet</h3>
-        <hr>
-        <p>rem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-            magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-            commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-            nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
-            anim id est laborum.</p>
+        <div id="salespitch">
+            <img src="Assets/pharmacist2.webp" alt="">
+            <h3>Achat de médicaments et de produits de paramédical sur internet</h3>
+            <hr>
+            <p>rem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore
+                magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+                commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+                fugiat
+                nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+                mollit
+                anim id est laborum.</p>
 
-        <h3>Votre paramédical en ligne</h3>
-        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem
-            aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
-            Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni
-            dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor
-            sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore
-            magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis
-            suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in
-            ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas
-            nulla pariatur?</p>
-    </div>
-    <div>
-        <h3>Les avantages</h3>
-        <div>
-            <img src="" alt="">
-            <p>Livraison gratuite</p>
+            <h3>Votre paramédical en ligne</h3>
+            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam
+                rem
+                aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt
+                explicabo.
+                Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni
+                dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia
+                dolor
+                sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et
+                dolore
+                magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis
+                suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit
+                qui in
+                ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas
+                nulla pariatur?</p>
         </div>
+        <div>
+            <h3>Les avantages</h3>
+            <div>
+                <img src="" alt="">
+                <p>Livraison gratuite</p>
+            </div>
 
-        <div>
-            <img src="" alt="">
-            <p></p>
-        </div>
+            <div>
+                <img src="" alt="">
+                <p></p>
+            </div>
 
-        <div>
-            <img src="" alt="">
-            <p></p>
-        </div>
+            <div>
+                <img src="" alt="">
+                <p></p>
+            </div>
 
+            <div>
+                <img src="" alt="">
+                <p></p>
+            </div>
+        </div>
         <div>
-            <img src="" alt="">
-            <p></p>
+            <h2>Pour plus d'informations, contactez-nous!</h2>
+            <a href="">Acceder au formulaire de contact</a>
         </div>
     </div>
-    <div>
-        <h2>Pour plus d'informations, contactez-nous!</h2>
-        <a href="">Acceder au formulaire de contact</a>
-    </div>
-    </div>
-    </div>
+
     <footer>
-        <div>
-            <section class="footer-nav">
-                <div class="footer-nav-col1">
+        <div class="footer-nav-container">
+            <div class="footer-nav">
+                <div class="footer-nav-col">
                     <h2>MedicAlliance</h2>
                     <p>2, rue de Satellite</p>
                     <p>Parc Technologique du Canal</p>
                     <p>31520 RAMONVILLE SAINT-AGNE</p>
                 </div>
-                <div class="footer-nav-col2">
+                <div class="footer-nav-col">
                     <h2>Nos Sérvices</h2>
                     <li>Réparation en entretien</li>
                     <li>Collecte de Matériel Médicale</li>
                     <li>Dépôt des DASRI</li>
                     <li>Bien-Etre Academie</li>
                 </div>
-                <div class="footer-nav-col3">
+                <div class="footer-nav-col">
                     <h2>Nos produits</h2>
-                        <li>Maintien à domicile</li>
-                        <li>Handicap enfant</li>
-                        <li>Handicap adulte</li>
-                        <li>Professionnels de santé</li>
-                        <li>Ergonomie au travail</li>
+                    <li>Maintien à domicile</li>
+                    <li>Handicap enfant</li>
+                    <li>Handicap adulte</li>
+                    <li>Professionnels de santé</li>
+                    <li>Ergonomie au travail</li>
                 </div>
-                <div class="footer-nav-col4">
+                <div class="footer-nav-col">
                     <h2>Follow us</h2>
                     <li>Facebook</li>
                     <li>Instagram</li>
                     <li>Twitter</li>
                 </div>
-            </section>
+            </div>
             <p class="cr">©Méditech - 2020. Tous les droits sont resérvé</p>
         </div>
     </footer>
