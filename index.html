@@ -2,240 +2,269 @@
 <html lang="fr">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="./style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./style.css">
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700;800&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700;800&display=swap" rel="stylesheet">
 </head>
 
 <body>
-    <header>
-        <div class="grid-container">
-            <img class="logo" src="./Assets/logo health.svg" alt="logo">
-            <div class="search">
-                <input type="text" placeholder="search for products and services">
-                <button type="button">
-                    <img src="./Assets/search.svg" alt="Search Icon">
-                </button>
-            </div>
-            <div class="icons">
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
-                    stroke="currentColor" class="w-6 h-6">
-                    <path stroke-linecap="round" stroke-linejoin="round"
-                        d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 0 0 2.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 0 1-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 0 0-1.091-.852H4.5A2.25 2.25 0 0 0 2.25 4.5v2.25Z" />
-                </svg>
+  <header>
+    <section class="frow flex-container">
+      <img class="logo" src="./Assets/logo health.svg" alt="logo">
+      <div class="search">
+        <input type="text" placeholder="search for products and services">
+        <button type="button">
+          <img src="./Assets/search.svg" alt="Search Icon">
+        </button>
+      </div>
+      <div class="icons">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+          class="w-6 h-6">
+          <path stroke-linecap="round" stroke-linejoin="round"
+            d="M15.75 6a3.75 3.75 0 1 1-7.5 0 3.75 3.75 0 0 1 7.5 0ZM4.501 20.118a7.5 7.5 0 0 1 14.998 0A17.933 17.933 0 0 1 12 21.75c-2.676 0-5.216-.584-7.499-1.632Z" />
+        </svg>
 
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
-                    stroke="currentColor" class="w-6 h-6">
-                    <path stroke-linecap="round" stroke-linejoin="round"
-                        d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 0 0 2.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 0 1-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 0 0-1.091-.852H4.5A2.25 2.25 0 0 0 2.25 4.5v2.25Z" />
-                </svg>
-
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
-                    stroke="currentColor" class="w-6 h-6">
-                    <path stroke-linecap="round" stroke-linejoin="round"
-                        d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 0 0 2.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 0 1-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 0 0-1.091-.852H4.5A2.25 2.25 0 0 0 2.25 4.5v2.25Z" />
-                </svg>
-            </div>
-
-            <menu>
-                <ul>
-                    <li>Accueil</li>
-                    <li>
-                        Produits
-                        <ul>
-                            <li>Orthopédies</li>
-                            <li>Médicaments</li>
-                        </ul>
-                    </li>
-                    <li>Services</li>
-                    <li>Qui Sommes Nous?</li>
-                    <li>Expériences</li>
-                    <li>Contact</li>
-                </ul>
-            </menu>
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+          class="w-6 h-6">
+          <path stroke-linecap="round" stroke-linejoin="round"
+            d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z" />
+        </svg>
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+          class="w-6 h-6">
+          <path stroke-linecap="round" stroke-linejoin="round"
+            d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 0 0 2.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 0 1-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 0 0-1.091-.852H4.5A2.25 2.25 0 0 0 2.25 4.5v2.25Z" />
+        </svg>
+    </section>
+    <hr class="line">
+    <section class="srow flex-container">
+      <menu>
+        <ul>
+          <li>Accueil</li>
+          <li>
+            Produits
+            <ul>
+              <li>Orthopédies</li>
+              <li>Médicaments</li>
+            </ul>
+          </li>
+          <li>Services</li>
+          <li>Qui Sommes Nous?</li>
+          <li>Expériences</li>
+          <li>Contact</li>
+        </ul>
+      </menu>
+    </section>
+  </header>
+  <div class="root-container">
+    <div class="gallery-view">
+      <div class="panel-gallery">
+        <div id="panel1" class="panel">
+          <img src="./Assets/Medication-library.webp" alt="A pharmacist looking at a wall of medications">
+          <div id="text" class="panel-info">
+            <h2>Votre solution santé</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+              labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+              aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+              dolore eu
+              fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+              deserunt mollit anim id est laborum.</p>
+            <a href="#text"><button>Savoir Plus</button></a>
+          </div>
         </div>
-    </header>
-
-    <div class="root-container">
-        <div class="panel-gallery">
-            <div class="panel">
-                <img src="./Assets/Medication-library.webp" alt="A pharmacist looking at a wall of medications">
-                <div id="text" class="panel-info">
-                    <h1>Votre solution santé</h1>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                        labore
-                        et
-                        dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                        aliquip
-                        ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
-                        dolore eu
-                        fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
-                        deserunt mollit anim id est laborum.</p>
-                    <a href="#text"><button>Savoir Plus</button></a>
-                </div>
-            </div>
-            <div class="panel">
-                <img src="./Assets/Medication-library.webp" alt="A pharmacist looking at a wall of medications">
-                <div id="text" class="panel-info">
-                    <h1>Votre solution santé</h1>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                        labore
-                        et
-                        dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                        aliquip
-                        ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
-                        dolore eu
-                        fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
-                        deserunt mollit anim id est laborum.</p>
-                    <a href="#text"><button>Savoir Plus</button></a>
-                </div>
-            </div>
+        <div id="panel1" class="panel">
+          <img src="./Assets/Medication-library.webp" alt="A pharmacist looking at a wall of medications">
+          <div id="text" class="panel-info">
+            <h1>Votre solution santé</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+              labore
+              et
+              dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+              aliquip
+              ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+              dolore eu
+              fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+              deserunt mollit anim id est laborum.</p>
+            <a href="#text"><button>Savoir Plus</button></a>
+          </div>
         </div>
+        <a href="#panel1">
+          <button class="btn prev-btn">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+              stroke="currentColor" class="prev-btn-icon">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 19.5 8.25 12l7.5-7.5" />
+            </svg>
+          </button>
+        </a>
 
-        <h2>Best Selling Products</h2>
-        <div id="products" class="gallery">
-            <div class="galleryCell">
-                <img src="./Assets/neck.png" alt="Neck strap">
-                <p class="price">20$</p>
-            </div>
-            <div class="galleryCell">
-                <img src="./Assets/foot.png" alt="Back supporting strap">
-                <p class="price">20$</p>
-            </div>
-            <div class="galleryCell">
-                <img src="./Assets/wrist.png" alt="Ankle support">
-                <p class="price">20$</p>
-            </div>
-            <div class="galleryCell">
-                <img src="./Assets/waist.png" alt="Foot support">
-                <p class="price">20$</p>
-            </div>
-            <div class="galleryCell">
-                <img src="./Assets/ankle.png" alt="Wrist strap">
-                <p class="price">20$</p>
-            </div>
-            <div class="galleryCell">
-                <img src="./Assets/foot.png" alt="Foot support2">
-                <p class="price">20$</p>
-            </div>
-        </div>
-
-        <h2>Nos conseils santé</h2>
-        <div id="conseils" class="imageGallery">
-            <img src="./Assets/Nurse.webp" alt="Nurse looking this way">
-            <img src="./Assets/Partners running.webp" alt="Two people running together">
-            <img src="./Assets/motherAndHerNewborn.webp" alt="Pharmacist showing a wall of medications">
-        </div>
-
-        <div id="newsletter" class="imageGallery">
-            <img src="./Assets/pharmacist.webp" alt="">
-            <img src="./Assets/MedInfo.webp" alt="">
-        </div>
-
-        <h3>Nos partenaires:</h3>
-        <div id="partnerships" class="imageGallery">
-            <img src="Assets/Anios.png" alt="">
-            <img src="Assets/Braun.png" alt="">
-            <img src="Assets/" alt="">
-            <img src="" alt="">
-        </div>
-        <button aria-label="Voir tous nos marques"></button>
-        <div id="salespitch">
-            <img src="Assets/pharmacist2.webp" alt="">
-            <h3>Achat de médicaments et de produits de paramédical sur internet</h3>
-            <hr>
-            <p>rem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-                dolore
-                magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-                commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-                fugiat
-                nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-                mollit
-                anim id est laborum.</p>
-
-            <h3>Votre paramédical en ligne</h3>
-            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam
-                rem
-                aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt
-                explicabo.
-                Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni
-                dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia
-                dolor
-                sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et
-                dolore
-                magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis
-                suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit
-                qui in
-                ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas
-                nulla pariatur?</p>
-        </div>
-        <div>
-            <h3>Les avantages</h3>
-            <div>
-                <img src="" alt="">
-                <p>Livraison gratuite</p>
-            </div>
-
-            <div>
-                <img src="" alt="">
-                <p></p>
-            </div>
-
-            <div>
-                <img src="" alt="">
-                <p></p>
-            </div>
-
-            <div>
-                <img src="" alt="">
-                <p></p>
-            </div>
-        </div>
-        <div>
-            <h2>Pour plus d'informations, contactez-nous!</h2>
-            <a href="">Acceder au formulaire de contact</a>
-        </div>
+        <a href="#panel2">
+          <button class="btn next-btn">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+              stroke="currentColor" class="next-btn-icon">
+              <path stroke-linecap="round" stroke-linejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" />
+            </svg>
+          </button>
+        </a>
+      </div>
+      <div class="gallery-index">
+        <div class="circle"></div>
+        <div class="circle"></div>
+        <div class="circle"></div>
+        <div class="circle current"></div>
+      </div>
     </div>
 
-    <footer>
-        <div class="footer-nav-container">
-            <div class="footer-nav">
-                <div class="footer-nav-col">
-                    <h2>MedicAlliance</h2>
-                    <p>2, rue de Satellite</p>
-                    <p>Parc Technologique du Canal</p>
-                    <p>31520 RAMONVILLE SAINT-AGNE</p>
-                </div>
-                <div class="footer-nav-col">
-                    <h2>Nos Sérvices</h2>
-                    <li>Réparation en entretien</li>
-                    <li>Collecte de Matériel Médicale</li>
-                    <li>Dépôt des DASRI</li>
-                    <li>Bien-Etre Academie</li>
-                </div>
-                <div class="footer-nav-col">
-                    <h2>Nos produits</h2>
-                    <li>Maintien à domicile</li>
-                    <li>Handicap enfant</li>
-                    <li>Handicap adulte</li>
-                    <li>Professionnels de santé</li>
-                    <li>Ergonomie au travail</li>
-                </div>
-                <div class="footer-nav-col">
-                    <h2>Follow us</h2>
-                    <li>Facebook</li>
-                    <li>Instagram</li>
-                    <li>Twitter</li>
-                </div>
-            </div>
-            <p class="cr">©Méditech - 2020. Tous les droits sont resérvé</p>
+    <div id="products">
+      <h2>Best Selling Products</h2>
+      <div class="gallery">
+        <div class="galleryCell">
+          <img src="./Assets/neck.png" alt="Neck strap">
+          <p class="price">20$</p>
+          <p class="title">Pain1</p>
         </div>
-    </footer>
+        <div class="galleryCell">
+          <img src="./Assets/foot.png" alt="Back supporting strap">
+          <p class="price">20$</p>
+          <p class="title">Pain2</p>
+        </div>
+        <div class="galleryCell">
+          <img src="./Assets/wrist.png" alt="Ankle support">
+          <p class="price">20$</p>
+          <p class="title">Pain3</p>
+        </div>
+        <div class="galleryCell">
+          <img src="./Assets/waist.png" alt="Foot support">
+          <p class="price">20$</p>
+          <p class="title">Pain4</p>
+        </div>
+        <div class="galleryCell">
+          <img src="./Assets/ankle.png" alt="Wrist strap">
+          <p class="price">20$</p>
+          <p class="title">Pain5</p>
+        </div>
+        <div class="galleryCell">
+          <img src="./Assets/foot.png" alt="Foot support2">
+          <p class="price">20$</p>
+          <p class="title">Pain6</p>
+        </div>
+      </div>
+    </div>
+
+    <h2>Nos conseils santé</h2>
+    <div id="conseils" class="imageGallery">
+      <img src="./Assets/Nurse.webp" alt="Nurse looking this way">
+      <img src="./Assets/Partners running.webp" alt="Two people running together">
+      <img src="./Assets/motherAndHerNewborn.webp" alt="Pharmacist showing a wall of medications">
+    </div>
+
+    <div id="newsletter" class="imageGallery">
+      <img src="./Assets/pharmacist.webp" alt="">
+      <img src="./Assets/MedInfo.webp" alt="">
+    </div>
+
+    <h3>Nos partenaires:</h3>
+    <div id="partnerships" class="imageGallery">
+      <img src="Assets/Anios.png" alt="">
+      <img src="Assets/Braun.png" alt="">
+      <img src="Assets/" alt="">
+      <img src="" alt="">
+    </div>
+    <button aria-label="Voir tous nos marques"></button>
+    <div id="salespitch">
+      <img src="Assets/pharmacist2.webp" alt="">
+      <h3>Achat de médicaments et de produits de paramédical sur internet</h3>
+      <hr>
+      <p>rem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+        dolore
+        magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+        commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+        fugiat
+        nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+        mollit
+        anim id est laborum.</p>
+
+      <h3>Votre paramédical en ligne</h3>
+      <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam
+        rem
+        aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt
+        explicabo.
+        Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni
+        dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia
+        dolor
+        sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et
+        dolore
+        magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis
+        suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit
+        qui in
+        ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas
+        nulla pariatur?</p>
+    </div>
+    <div>
+      <h3>Les avantages</h3>
+      <div>
+        <img src="" alt="">
+        <p>Livraison gratuite</p>
+      </div>
+
+      <div>
+        <img src="" alt="">
+        <p></p>
+      </div>
+
+      <div>
+        <img src="" alt="">
+        <p></p>
+      </div>
+
+      <div>
+        <img src="" alt="">
+        <p></p>
+      </div>
+    </div>
+    <div>
+      <h2>Pour plus d'informations, contactez-nous!</h2>
+      <a href="">Acceder au formulaire de contact</a>
+    </div>
+  </div>
+
+  <footer>
+    <div class="footer-nav-container">
+      <div class="footer-nav">
+        <div class="footer-nav-col">
+          <h2>MedicAlliance</h2>
+          <p>2, rue de Satellite</p>
+          <p>Parc Technologique du Canal</p>
+          <p>31520 RAMONVILLE SAINT-AGNE</p>
+        </div>
+        <div class="footer-nav-col">
+          <h2>Nos Sérvices</h2>
+          <li>Réparation en entretien</li>
+          <li>Collecte de Matériel Médicale</li>
+          <li>Dépôt des DASRI</li>
+          <li>Bien-Etre Academie</li>
+        </div>
+        <div class="footer-nav-col">
+          <h2>Nos produits</h2>
+          <li>Maintien à domicile</li>
+          <li>Handicap enfant</li>
+          <li>Handicap adulte</li>
+          <li>Professionnels de santé</li>
+          <li>Ergonomie au travail</li>
+        </div>
+        <div class="footer-nav-col">
+          <h2>Follow us</h2>
+          <li>Facebook</li>
+          <li>Instagram</li>
+          <li>Twitter</li>
+        </div>
+      </div>
+      <p class="cr">©Méditech - 2020. Tous les droits sont resérvé</p>
+    </div>
+  </footer>
 </body>
 
 </html>
